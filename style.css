@@ -4,13 +4,94 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
 }
 
 body {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial;
-  display: flex;
-  justify-content: center;
-  height: 100vh;
-  align-items: center;
-  background-color: #f9f9f9;
+  background-color: #eee;
+}
+
+body {
+  h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+}
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.challenge {
+  padding: 10px 0;
+  border: none;
+  box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  border: none;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.challenge .title {
+  margin-bottom: 0.8rem;
+}
+
+input[type="number"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: #222;
+  background-color: #eee;
+}
+
+input[type="number"]:disabled {
+  background-color: #ccc;
+}
+
+::placeholder {
+  color: #222;
+}
+#convert {
+  padding: 10px 20px;
+  border: none;
+  text-transform: capitalize;
+  background-color: red;
+  font-weight: 500;
+  color: #fff;
+}
+
+.convert:active {
+  transform: scale(0.9);
+}
+
+#numbers {
+  width: 100%;
+  max-width: 70%;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: #222;
+  background-color: #eee;
+}
+
+#min,
+#max {
+  padding: 10px;
+  width: 35%;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: #222;
+  background-color: #eee;
+  text-transform: capitalize;
 }

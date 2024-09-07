@@ -33,5 +33,5 @@ Create an IIFE (Immediately Invoked Function Expression) that takes in the lengt
 **Expected Results:**
 
 ```javascript
-The area of a rectangle with a length of 10 and a with of 5 is 50.
+The area of a rectangle with a length of 10 and a width of 5 is 50.
 ```
